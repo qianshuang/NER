@@ -1,0 +1,883 @@
+B-E E-E O O B-P E-P O O
+B-E I-E E-E B-P E-P B-P I-P E-P
+B-E E-E O O B-P E-P O
+B-E I-E I-E I-E E-E B-P I-P E-P B-E I-E E-E
+B-E E-E O O B-P E-P
+B-E I-E I-E I-E E-E B-P E-P B-P I-P E-P O
+B-E E-E O O B-P E-P B-P E-P O
+B-E I-E I-E I-E E-E B-P E-P B-P E-P
+B-E E-E O O B-P E-P B-P E-P
+B-E E-E O B-P E-P O
+B-E E-E O O B-P I-P E-P O B-P E-P O
+B-E E-E O B-P E-P O
+B-E E-E O B-P E-P B-P E-P O
+B-E E-E O B-P E-P O
+B-E E-E O B-P E-P B-P E-P O O
+B-E I-E E-E B-P E-P O B-P E-P O
+B-E E-E O B-P E-P B-P E-P
+B-E I-E E-E O O B-P E-P B-E E-E O
+B-E E-E O B-E E-E O O B-P E-P O
+B-E I-E E-E O O B-P E-P B-E E-E O O O O
+B-E E-E O B-E E-E O B-P E-P O
+B-E I-E E-E O O O
+B-E E-E O B-E E-E B-P E-P B-P E-P O
+B-E I-E E-E O O O
+B-E E-E O B-E E-E B-P I-P E-P B-P E-P
+B-E I-E E-E O O B-P E-P O
+B-E E-E O B-E E-E O B-P E-P O O
+B-E I-E E-E O O B-P E-P O O
+B-E E-E O B-E I-E E-E B-P B-E E-E
+B-E I-E E-E O B-P E-P O
+B-E E-E O B-P E-P O B-P I-P E-P O
+B-E E-E O B-P E-P B-P E-P
+B-E I-E E-E O O B-P E-P B-P E-P O
+B-E E-E O B-P E-P B-P I-P E-P O
+B-E I-E E-E O O O O
+B-E E-E O B-P E-P B-P I-P E-P
+B-E I-E E-E O O O B-P E-P
+B-E I-E E-E B-P E-P O B-E I-E E-E O
+B-E E-E O B-P E-P B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P O
+B-E E-E O B-P E-P O O B-P O O
+B-E I-E E-E B-E I-E E-E B-P E-P O
+B-E E-E O B-P E-P O B-P E-P
+B-E I-E E-E B-P E-P O O O B-P E-P
+B-E E-E O B-E I-E E-E O O O O O O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O B-P I-P E-P O O
+B-E O O
+B-E E-E O B-P E-P B-P E-P O O B-P I-P I-P E-P O B-E I-E E-E
+B-E E-E O B-P E-P B-P E-P O
+B-E I-E E-E O B-P E-P B-P E-P O O
+B-E E-E O B-P E-P B-P E-P
+B-E E-E O O B-E I-E E-E O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O O B-P E-P O
+B-E E-E O O B-P E-P O O O
+B-E E-E O B-E E-E O O B-P E-P O
+B-E I-E E-E O B-E E-E O
+B-E E-E O O O O B-P E-P O
+B-E I-E E-E O O O B-P E-P O O O O
+B-E E-E B-P E-P B-P E-P
+B-E E-E B-E I-E E-E
+B-E I-E E-E O B-E I-E E-E O
+B-E E-E B-E I-E E-E
+B-E E-E B-E I-E E-E
+B-E I-E E-E O B-P E-P O O
+B-E E-E B-P I-P E-P
+B-E E-E B-E I-E E-E
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O O B-P E-P O O
+B-E I-E E-E O O B-E I-E E-E O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P O
+B-E E-E B-P I-P E-P B-E I-E E-E
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E B-P B-P E-P
+B-E I-E E-E O B-P E-P O O
+B-E E-E B-P E-P B-E E-E
+B-E I-E E-E B-P E-P O
+B-E I-E I-E I-E E-E O B-E I-E E-E O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P O
+B-E I-E E-E B-P E-P O
+B-E I-E E-E B-P E-P O
+B-E I-E E-E B-P I-P E-P B-E
+B-E I-E E-E O O B-P E-P O
+B-E I-E E-E B-E I-E E-E
+B-E I-E E-E B-P I-P E-P B-E E-E
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-E I-E E-E O O B-E E-E O
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E E-E O B-E I-E E-E O
+B-E I-E E-E O O B-P E-P O
+B-E I-E E-E O O B-E I-E E-E O O
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P O O O O O O O
+B-P I-P I-P E-P O O O B-E E-E O B-P E-P B-P E-P O O O O O O O
+B-E I-E E-E O B-P E-P O O O O O O
+B-E I-E E-E B-P E-P B-P E-P O
+B-E E-E B-E E-E O B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P
+B-E I-E E-E O B-P E-P O
+B-E I-E I-E E-E B-P E-P O
+B-E I-E I-E E-E B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-E E-E O O
+B-E I-E E-E O O B-P E-P
+B-E I-E E-E O O B-P E-P O
+B-E I-E E-E B-E I-E E-E B-P E-P O B-P E-P O O O O O
+B-E I-E E-E B-P I-P I-P E-P B-P E-P O O O
+B-E E-E O O B-E I-E E-E
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O O O O B-P E-P B-P E-P
+O O B-E I-E I-E E-E O B-E E-E O
+B-E I-E I-E E-E O B-E E-E O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P O
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E I-E E-E O B-P E-P
+B-E I-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P O O
+B-E I-E I-E E-E B-P E-P
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-E E-E O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O O O O B-P E-P O
+B-E I-E E-E O O B-P E-P O O
+B-E I-E E-E B-P E-P O B-P E-P
+B-E I-E I-E I-E E-E O B-E E-E O
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-E E-E O
+B-E I-E E-E B-P E-P O B-E E-E O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P I-P I-P E-P B-P E-P
+B-E I-E E-E O B-E E-E O
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O O B-E E-E
+B-E E-E O B-P E-P B-E E-E O
+B-E I-E E-E O B-P E-P O
+B-P O B-E E-E O O B-P E-P O O O O O O O
+B-P E-P O B-E E-E O O O B-E E-E O
+B-E I-E E-E O O B-P E-P O
+B-E I-E E-E O B-P I-P E-P B-P E-P
+B-E I-E I-E I-E I-E E-E O B-P E-P O
+B-E I-E I-E E-E O B-E E-E O B-P E-P O
+B-E I-E E-E O B-P I-P E-P B-E I-E E-E
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E I-E E-E O B-P E-P O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P O O
+B-E I-E I-E E-E O B-P E-P B-P E-P O
+B-E I-E I-E I-E E-E O B-P E-P B-E E-E
+B-E I-E E-E B-P E-P O
+B-E I-E E-E O O O B-E I-E E-E O
+B-E I-E E-E B-E I-E E-E O O O O
+B-E I-E E-E B-P E-P
+B-E I-E E-E O O B-E I-E E-E
+B-E I-E E-E O B-P E-P O
+B-E I-E I-E I-E E-E B-P B-P E-P
+B-P E-P O B-E I-E I-E E-E O O O O B-E I-E E-E
+B-E I-E I-E E-E O B-P E-P O O
+B-E I-E E-E O B-P E-P B-P E-P O
+B-E I-E E-E O O O O B-P E-P O O O O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O O B-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P B-P I-P E-P
+B-E E-E O B-P E-P O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P O
+B-E E-E O O O B-E E-E O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P
+B-E E-E B-P E-P B-E I-E E-E
+B-E I-E E-E O B-P E-P B-P E-P
+B-E E-E B-E I-E E-E O O
+B-E I-E E-E O B-P E-P O
+B-E I-E I-E I-E I-E E-E B-P E-P O O B-P E-P
+B-E I-E E-E O B-P E-P O
+B-E I-E I-E E-E B-E I-E I-E E-E O B-P E-P O O O O O O O O O O O B-P E-P
+B-E E-E B-P I-P I-P E-P B-E I-E E-E
+B-E I-E E-E O B-P E-P O
+B-E E-E O B-P E-P O
+B-E I-E E-E B-P I-P I-P E-P
+B-E E-E O B-P E-P O
+B-E I-E E-E B-P I-P I-P E-P
+B-E I-E E-E B-P I-P E-P B-E I-E E-E O
+B-E B-P E-P B-P E-P
+B-E E-E B-E E-E O B-P E-P O O
+B-E I-E E-E O O O B-P E-P O
+B-E E-E O O O O B-P E-P
+B-E E-E O O B-E I-E E-E O
+B-E I-E E-E O B-P E-P B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O B-E I-E E-E O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O B-E I-E E-E O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O O B-P E-P O
+B-E E-E B-P E-P B-E I-E E-E O
+B-E I-E I-E E-E O B-E I-E E-E O
+B-E I-E E-E O B-P I-P E-P B-E I-E E-E
+B-E B-E E-E O O B-P E-P O
+B-E I-E E-E O B-E I-E E-E O
+B-E I-E E-E O O B-P E-P
+B-E I-E E-E O B-P I-P E-P O O O B-E I-E E-E O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P O B-P E-P O B-P E-P
+B-E I-E E-E B-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P B-P I-P E-P
+B-E I-E E-E B-P E-P B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P
+B-E E-E O O B-P E-P O B-P E-P
+B-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P O
+B-E E-E O O B-P E-P O
+B-E E-E O B-E I-E E-E O O
+B-E E-E O B-E I-E E-E O
+B-E E-E B-P B-P E-P
+B-E E-E O B-E I-E E-E O
+B-E E-E O O O O O B-E I-E E-E
+B-E E-E O B-P E-P O O
+B-E E-E O B-P E-P O
+B-E E-E B-P E-P B-P I-P E-P
+B-E E-E O B-E I-E E-E O O
+B-E E-E O B-P E-P O
+B-E E-E O B-P E-P O
+B-E E-E O O B-E E-E O
+B-E E-E O O B-P E-P
+B-E E-E O O O O O B-E I-E E-E
+B-E E-E B-P E-P B-P E-P
+B-P E-P O O
+B-P E-P
+B-P I-P I-P E-P B-P I-P E-P O
+B-P I-P I-P E-P B-E I-E E-E B-P I-P E-P
+B-E I-E E-E B-P I-P I-P E-P O B-P E-P
+B-P I-P E-P B-E I-E E-E B-P I-P E-P O O
+B-P E-P O O O O O O B-E E-E O O O B-E E-E O O O B-P E-P O
+B-E E-E O B-E E-E O O B-P E-P B-P I-P E-P
+O O O O O B-E I-E E-E O B-E I-E E-E O
+B-E E-E O B-P E-P O O O O B-P I-P E-P B-P E-P B-P E-P
+B-P E-P O O B-E E-E O
+B-P E-P O O O O O O B-E I-E E-E
+B-E E-E O O O B-P E-P O
+B-E E-E O B-P I-P E-P B-E I-E E-E
+B-E E-E B-P E-P B-P E-P
+B-E E-E B-E E-E O B-P E-P B-P E-P
+B-E E-E O B-E B-P E-P B-P E-P O
+B-E E-E O B-E E-E B-P E-P O O O
+B-E E-E O B-E E-E B-P E-P B-P E-P
+B-E I-E I-E E-E B-E E-E B-P E-P O O B-P E-P B-P E-P
+B-E E-E O B-E E-E O O O B-E I-E E-E
+B-E I-E E-E B-E I-E E-E B-P I-P E-P O O O
+B-E E-E O B-E E-E O O O B-E I-E E-E O
+B-E I-E I-E E-E B-P I-P E-P B-E I-E E-E
+B-E E-E O B-E E-E O B-P E-P O O
+B-E I-E E-E B-E I-E E-E B-P I-P E-P
+B-E E-E O O O B-E I-E E-E O
+B-E E-E O O B-P E-P O
+B-E E-E O O O O B-P E-P O
+B-E I-E E-E O O O O B-E E-E O O O O
+B-E I-E I-E I-E E-E O B-E E-E O
+B-E E-E O O B-P E-P
+B-E E-E O O O O B-E I-E E-E
+O O O O O O O
+B-E E-E O B-E I-E E-E B-P E-P B-P E-P
+B-E I-E I-E E-E B-P I-P I-P E-P O O O O B-E E-E O O
+O O O B-E O
+O O O
+B-E E-E O B-P E-P B-E I-E E-E O O
+B-E E-E O O B-P E-P O O
+B-E I-E E-E B-E I-E E-E B-P E-P O O
+B-E E-E O O O O B-P E-P O O
+B-E E-E B-P E-P B-P E-P
+B-E E-E O O O O B-E I-E E-E O
+B-E E-E O O O O B-E I-E E-E
+B-E I-E E-E O B-P E-P O
+B-E I-E I-E I-E I-E I-E E-E O O
+B-E E-E O O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O O B-P E-P O O
+B-E E-E O O B-P E-P O
+B-E I-E E-E B-P E-P O B-P E-P
+B-E I-E E-E O B-P E-P B-P E-P O
+B-E E-E O O B-E I-E E-E O
+B-E E-E O O B-E I-E E-E O
+B-E E-E O B-P E-P O O
+B-E E-E O O B-P E-P O
+B-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O O B-P E-P B-P E-P O
+B-E E-E O O B-P E-P B-P E-P
+B-E E-E B-P E-P B-P E-P
+B-E E-E O B-P E-P B-E E-E O
+B-E E-E O O O O O B-E I-E E-E O
+B-E E-E B-P E-P B-E E-E
+B-E E-E O B-P E-P O B-E I-E E-E O
+B-P E-P O B-E O B-P E-P O
+B-E E-E O B-P I-P E-P B-E I-E E-E
+B-P I-P E-P O B-E E-E O O O O B-P E-P O
+O O B-E E-E
+B-E E-E O B-P E-P B-P E-P O
+B-E E-E O B-P E-P B-E E-E O B-E E-E B-P E-P O
+B-E E-E O B-P E-P B-P E-P
+B-E E-E O O B-P E-P O
+B-E E-E O B-P E-P O B-E
+B-E E-E O B-P E-P O
+B-E E-E O O B-E E-E O O B-P E-P O O
+B-E E-E B-P E-P B-P E-P
+B-E E-E O O B-E E-E B-P E-P B-P I-P E-P
+B-E E-E O O B-P E-P O
+B-E E-E O O O O B-E I-E E-E O
+B-E E-E B-P E-P O
+B-E E-E B-P E-P O
+B-E E-E O B-E I-E E-E O O O B-P E-P
+B-E E-E B-P E-P B-P E-P O
+B-E E-E B-P E-P B-P E-P O
+B-E E-E O B-E B-E I-E E-E B-P E-P O
+B-P I-P I-P I-P E-P O O O
+B-E I-E E-E O O B-E I-E E-E O
+B-E E-E O B-P E-P B-P E-P
+B-E E-E O B-P E-P O O
+B-E E-E O B-P E-P O
+B-E E-E O B-P E-P B-P E-P O O O
+B-E E-E O O O O O O O O O B-P I-P E-P B-E I-E E-E O
+O O B-E I-E E-E O
+B-E E-E O B-P E-P O O
+B-E E-E O B-P E-P O
+B-E E-E O B-E I-E E-E O O B-P E-P B-P E-P B-P E-P O
+O O B-P E-P B-E I-E E-E O
+B-E I-E E-E O B-E E-E O
+B-E E-E O B-P E-P O O
+B-E E-E O B-E I-E E-E B-P I-P E-P
+O O O O B-E I-E E-E O
+B-E E-E O B-E I-E E-E O O O
+B-E E-E O B-P I-P E-P
+O B-P E-P B-E E-E O O O
+B-E E-E O B-P E-P O
+O O B-E O B-E I-E E-E O
+O O B-E O B-E I-E E-E
+B-E E-E O B-P E-P B-P I-P E-P
+O O O B-E I-E E-E O O
+O O O B-E I-E E-E O
+O B-P E-P O B-E E-E O
+B-E E-E O B-P I-P I-P E-P O B-P E-P
+B-E E-E O B-P E-P B-P E-P O
+B-E E-E O B-E I-E E-E B-P I-P E-P
+B-P I-P E-P O O B-E O O
+B-E E-E O B-P E-P B-P E-P B-P E-P
+O O O O O B-E O O O O
+B-E E-E O B-P E-P O B-P E-P O O
+B-E E-E O B-P E-P B-P E-P
+B-E E-E O O O O O B-E I-E E-E O O
+O O O O B-E I-E E-E O
+B-E E-E O O B-P E-P O
+B-E E-E O B-P E-P O
+O O O O O O O B-E I-E E-E
+B-E E-E O O O O B-P E-P B-P E-P
+B-E E-E B-E I-E E-E
+B-P I-P E-P O O O O O
+B-E E-E B-P E-P B-P E-P
+B-E I-E I-E E-E B-P I-P E-P
+B-E I-E I-E E-E B-E I-E I-E E-E O B-P E-P O
+B-E I-E I-E E-E O O O B-P E-P
+B-P I-P E-P O B-P E-P O
+B-E I-E I-E E-E O O B-P E-P O
+B-E I-E I-E E-E O O B-P E-P O
+B-P I-P E-P B-P E-P O
+B-P I-P E-P O O O O O
+B-P I-P E-P O B-P E-P O
+B-E I-E I-E E-E O B-P E-P O
+B-E I-E E-E B-P I-P E-P
+B-E I-E I-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P O O O
+B-E I-E I-E E-E B-P E-P B-P E-P O
+B-P I-P E-P B-E I-E E-E O O O
+B-E I-E I-E E-E B-P E-P B-P E-P
+B-P I-P E-P B-E I-E E-E B-P E-P O O O
+B-E I-E I-E E-E O B-P E-P O
+B-P I-P E-P B-P E-P O O O O O O
+B-E E-E O B-E I-E E-E O B-P E-P B-P E-P O
+B-P I-P E-P B-E I-E E-E O
+B-E I-E I-E E-E B-P E-P O B-P E-P
+B-E I-E I-E E-E B-E I-E E-E
+B-P I-P E-P B-E I-E E-E B-P I-P I-P E-P O
+B-E I-E I-E E-E B-P E-P O B-P E-P O
+B-E I-E I-E E-E B-P E-P B-P E-P
+B-P I-P E-P B-E I-E E-E O O O O
+B-E I-E E-E B-E I-E E-E O O O B-E E-E O O O O O
+B-E I-E I-E E-E B-P E-P B-P E-P B-P E-P
+B-P I-P E-P B-E I-E E-E O O O O
+O O O O O O O O O B-P E-P O
+B-P I-P E-P B-E I-E E-E B-P E-P O O
+B-E E-E O B-P E-P O
+B-P O B-E E-E O O B-P E-P O O
+B-P I-P E-P B-E I-E E-E B-P I-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-P I-P E-P B-E I-E E-E O B-P I-P E-P
+B-E I-E E-E O O O B-P E-P O O
+B-P I-P E-P B-E I-E E-E B-P I-P I-P E-P O O
+B-P I-P E-P B-E I-E E-E B-P I-P I-P E-P O
+B-E I-E E-E B-P E-P B-P E-P B-P E-P O
+B-P I-P E-P B-E I-E E-E O O O O
+B-P I-P E-P B-E I-E E-E O O O O O O O
+B-E I-E E-E O B-P E-P O O O O O O
+B-P I-P E-P B-E I-E E-E
+B-E E-E O O B-E I-E E-E O O
+B-E B-P E-P B-E E-E
+B-E E-E B-P E-P B-P E-P
+B-E E-E B-P E-P B-P E-P
+B-E E-E B-P E-P O
+B-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P O O O B-E O
+B-E I-E E-E O O B-P E-P O
+B-E I-E E-E O O B-E I-E E-E O O
+B-E E-E O B-E E-E O B-E I-E E-E O O O O B-P E-P B-P E-P
+B-E I-E E-E O O O O O B-P E-P O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E B-P E-P B-P E-P
+O O B-P E-P O B-P E-P B-E I-E E-E O
+O O B-E E-E O O B-P E-P O
+O B-P I-P I-P I-P I-P I-P I-P B-P E-P O O
+B-E I-E E-E B-E E-E B-P E-P B-P E-P
+B-E E-E B-E E-E O B-P E-P O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-E E-E O B-P E-P O O
+B-E I-E E-E O O O B-P E-P
+B-E E-E O B-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E E-E O B-E E-E O
+B-E I-E E-E O B-P E-P O O
+B-P E-P O O B-E I-E E-E O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P B-P E-P O
+B-E E-E O B-E E-E O O B-P E-P O O
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E I-E E-E O B-P I-P I-P E-P O
+B-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P O
+B-E E-E B-P E-P O
+B-P I-P E-P B-E I-E E-E O O O B-P E-P O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O O B-E E-E
+B-E I-E E-E O O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P O
+B-E E-E O O B-P B-P E-P O O O O O O O O
+B-E I-E E-E O B-P E-P O
+B-E E-E O O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O O O O O B-P E-P
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P B-P I-P E-P O O O O
+B-E E-E B-E I-E E-E
+O O O O O B-E I-E E-E
+B-E I-E E-E O B-P E-P B-P I-P E-P O O
+B-P I-P E-P B-P I-P E-P O B-E E-E O O
+B-E I-E E-E O O B-P E-P
+B-E E-E B-E I-E E-E
+B-E E-E O O O B-P E-P
+B-P E-P O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P B-P I-P E-P O O O O O
+B-E I-E E-E B-P E-P B-E E-E
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O O O B-P E-P
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-E I-E E-E O B-E I-E E-E O
+B-E I-E E-E O O B-P E-P O
+B-E E-E O B-P E-P O
+B-E E-E O O B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P O
+B-E E-E B-P I-P E-P B-E I-E E-E
+B-E E-E B-P E-P B-P E-P
+B-E I-E E-E O O B-P E-P B-E I-E E-E O
+B-E E-E B-P E-P B-P E-P
+B-E E-E B-E I-E E-E
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O O B-P E-P
+B-E I-E E-E O B-P E-P O O O O O
+B-E I-E E-E O O B-P E-P O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O O B-P E-P O O
+B-E I-E E-E O B-P E-P O
+B-P E-P O O B-P E-P B-E E-E
+B-E I-E E-E B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E E-E O B-P E-P B-E E-E
+B-E E-E O O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P O
+B-E I-E I-E E-E O O B-P E-P O
+B-E I-E I-E I-E I-E E-E O B-E E-E O
+B-E E-E O O O B-P E-P B-E I-E E-E O
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O O
+O O O O O B-E E-E B-P E-P B-P E-P O
+B-E I-E E-E O B-P E-P O O
+O O O O O O B-E E-E O O O O B-P E-P O
+B-E I-E E-E O B-P E-P B-P E-P
+O O O O O O O O O O O O O B-E O O O B-P E-P
+B-E I-E E-E B-P E-P B-P E-P O
+B-E E-E O B-P I-P E-P B-E I-E E-E
+O O O B-E E-E O B-E E-E O B-P E-P O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+O O O O O B-E I-E E-E O O O O O O O O O
+B-E I-E E-E O B-P E-P B-P E-P
+O O B-E E-E O O B-P E-P O
+B-E I-E E-E O B-P E-P O O
+O O O O O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O O B-P E-P O O
+B-E I-E E-E O O O B-P E-P
+B-E I-E E-E O O B-P E-P O O
+B-P E-P O O O B-E I-E E-E O O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-E I-E E-E O O O
+B-E E-E B-P E-P B-P E-P
+O O O B-E E-E O O
+B-E I-E E-E B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E E-E O B-E E-E O O B-E E-E O O O O O O B-P I-P E-P B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O O B-P E-P O O O O O
+B-E E-E B-E I-E E-E B-P I-P I-P E-P O
+B-E I-E E-E O B-P E-P O
+B-P I-P E-P O B-E E-E B-E I-E E-E B-P E-P O
+B-E I-E I-E E-E O O B-P E-P O O O O O O O
+B-E I-E E-E O O B-P E-P O O
+B-E I-E I-E E-E O O B-P E-P O O
+B-E I-E E-E O O B-P E-P O
+B-E I-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O B-P E-P O O
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P O O
+B-E I-E E-E O B-E I-E E-E O B-P E-P B-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E E-E O B-E I-E E-E O B-P E-P O O
+B-E E-E O O O
+B-E E-E O B-P E-P O
+B-E I-E E-E O O B-P E-P O
+B-E E-E O B-P E-P O
+B-E I-E E-E B-P I-P E-P B-P E-P B-P E-P
+B-E I-E E-E O B-E E-E O
+B-E I-E E-E O B-E I-E E-E O O
+O O O O B-P I-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+O O O O B-P E-P O
+O O O B-E I-E E-E
+B-E I-E E-E O O O B-P E-P O O
+B-E I-E E-E O B-E E-E O B-P E-P O O
+O O O O B-E I-E E-E O O O O
+O O O O B-E I-E E-E O
+B-E I-E E-E O O B-P E-P O
+O O O O B-E I-E E-E
+B-E I-E E-E O B-P E-P B-P I-P E-P
+O O B-E I-E E-E
+B-E I-E E-E O O B-P E-P B-P E-P B-P E-P O O
+B-E I-E E-E B-P E-P O
+B-E I-E E-E O B-P E-P B-P E-P
+O O B-P E-P B-P E-P O O O O
+B-E I-E E-E O B-P E-P O
+O O O B-E I-E E-E O O O O B-P E-P
+O B-E E-E O O
+B-E I-E E-E B-P E-P B-P E-P
+O O B-E I-E E-E O O O
+O B-P E-P O
+O O O O O O O O B-P E-P
+O B-E E-E O O O O O B-P E-P
+O B-E E-E O B-P E-P O
+O B-E I-E E-E
+O O B-E O B-E I-E E-E O O B-P
+O O B-P E-P O
+B-E E-E B-P E-P B-P E-P
+B-E E-E B-P E-P
+B-E I-E I-E E-E B-P E-P B-P E-P
+O O B-E I-E E-E
+B-E E-E O O O O O O B-E I-E E-E
+B-E I-E E-E
+B-E I-E E-E O B-P E-P O O
+B-E I-E E-E O B-P E-P O O
+O O O B-E I-E E-E O
+B-E E-E O B-P E-P O O
+B-E E-E O O B-E I-E E-E O O
+O O B-E E-E B-P E-P B-P E-P O O
+B-E E-E O O B-P E-P
+B-E I-E E-E O B-P E-P O
+O B-E I-E E-E O
+O O O O B-E I-E E-E
+B-E E-E O B-P E-P O
+B-E E-E B-P E-P B-P E-P
+B-E E-E B-P E-P B-P E-P O O
+B-E I-E E-E O B-P E-P O
+B-E E-E O B-P E-P O
+B-E E-E O B-E I-E E-E O
+B-E E-E O B-P E-P O
+B-E E-E O B-P E-P O
+O O O O O B-P E-P O
+B-E E-E O B-P E-P O O
+B-E E-E O B-P E-P O
+B-E E-E O
+B-E E-E O B-P E-P O O
+B-E E-E O O B-E
+B-E E-E O O O B-P E-P O
+B-E E-E B-P E-P B-P E-P O
+B-E E-E O B-P E-P O
+B-E E-E O B-P E-P B-P E-P
+B-E I-E E-E B-E I-E E-E
+B-E E-E O B-P E-P O
+B-E E-E B-P E-P B-P E-P
+O B-E I-E E-E O
+B-E E-E O O O B-P E-P
+B-E E-E O B-P E-P
+O B-E I-E E-E O
+B-E E-E B-P E-P B-P E-P O
+O O B-P E-P B-P E-P B-P E-P O
+B-E E-E B-P E-P B-P E-P
+O B-P E-P B-E I-E E-E O B-E E-E O
+B-E E-E O B-E I-E E-E O O
+B-E E-E O O B-P E-P O
+B-E E-E B-P E-P B-P E-P
+B-E I-E I-E I-E E-E B-P E-P B-P E-P
+B-E I-E I-E I-E E-E O B-P E-P O O
+B-E I-E I-E I-E E-E O B-P E-P
+B-E I-E E-E O B-E I-E E-E
+O B-E I-E E-E O O
+B-E I-E I-E I-E E-E B-P E-P O O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O O O O O
+B-E E-E O O B-E I-E E-E O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E
+B-E E-E O B-P E-P O
+B-E E-E O O O B-E I-E E-E
+B-E I-E E-E O
+B-E I-E E-E O O
+B-E E-E O B-P E-P O
+B-E E-E B-E I-E E-E
+B-E I-E E-E O B-P E-P O
+B-E E-E O O O
+B-E I-E E-E B-P I-P E-P
+B-E I-E E-E O O O O O O
+B-E E-E O B-P E-P O
+B-E E-E O O O
+B-E I-E E-E O B-P E-P O O
+B-E E-E O O O
+B-E I-E E-E O
+B-E I-E E-E B-P I-P E-P O
+B-E E-E O
+B-E I-E E-E
+B-E I-E E-E B-P I-P I-P E-P O
+B-P E-P B-P E-P
+B-E E-E B-P I-P E-P
+B-E E-E B-P I-P E-P O
+B-E E-E O O
+B-P I-P I-P E-P O B-E I-E E-E
+B-P I-P I-P E-P O B-E I-E E-E
+B-P I-P I-P E-P B-E I-E E-E
+B-E E-E B-P I-P E-P O O O
+B-E E-E B-P I-P E-P
+B-P E-P O B-E E-E
+B-E E-E O B-P E-P
+B-E E-E B-P I-P E-P
+B-E E-E O O O O
+B-P E-P O B-P E-P O O
+B-P E-P O O O O O B-E
+B-E E-E O B-P E-P O
+B-E O O B-P E-P O
+B-E E-E O O O O O B-E I-E E-E
+B-E E-E O O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E I-E E-E B-P E-P B-P E-P
+B-E E-E O O B-P E-P O O
+O B-E E-E O B-E E-E O B-E E-E O B-E E-E O B-E E-E O B-E E-E O O O B-P E-P B-P E-P
+B-E E-E
+B-E O B-P E-P B-P E-P
+B-E E-E B-P B-P E-P
+B-E O B-P E-P B-P E-P
+B-E E-E O B-P E-P O O
+B-E E-E B-E I-E E-E
+B-E E-E B-P E-P B-P E-P
+B-E E-E O B-P E-P O
+B-E E-E O B-P E-P B-P E-P
+B-E O O B-P E-P O O
+B-E E-E B-P E-P B-P E-P
+B-E E-E O O O O B-E E-E O B-P E-P O O O B-P E-P B-P E-P
+B-E E-E B-P E-P B-P E-P O B-P E-P
+B-E E-E O B-P E-P O O
+B-E E-E B-P E-P B-P E-P O
+B-E E-E O O B-P E-P O O
+B-E E-E O O B-E E-E
+B-E E-E O O B-P E-P B-P E-P
+B-E E-E O O B-E E-E O O
+B-P E-P O B-E E-E B-E I-E E-E
+B-E E-E O B-P E-P O O
+B-E E-E O B-P I-P E-P B-E I-E E-E
+B-E E-E O B-P E-P O
+B-E E-E O O B-P E-P O
+B-P E-P B-E I-E E-E
+B-E O B-E E-E O B-P E-P O
+B-E E-E B-P E-P B-P E-P O O
+B-E E-E O B-P E-P O
+B-E I-E E-E O B-P E-P O
+B-E E-E B-P E-P B-P E-P
+B-E E-E O B-P E-P B-P E-P
+B-E I-E E-E B-E I-E I-E E-E B-P E-P B-P E-P
+B-E I-E I-E I-E E-E O B-P E-P O O
+B-E E-E B-P E-P B-E I-E E-E O
+B-E E-E B-P E-P B-P E-P
+B-E E-E O B-P E-P B-P E-P
+B-E E-E B-P E-P B-P E-P O O O
+B-E E-E O B-P E-P B-P E-P O
+O O O O O O O B-E E-E O
+O O O B-P E-P O O O O
+B-E E-E O B-P E-P B-P E-P
+O O B-E I-E E-E O O O
+B-E O O B-P E-P O
+B-E E-E B-P I-P E-P B-E I-E E-E
+O O B-E
+B-E O O B-P E-P O O
+O O O O O O B-E E-E O O B-E E-E B-E I-E E-E O O
+O O O B-E B-E E-E O O O
+B-E E-E O B-P E-P O O
+O O O B-E E-E O O
+O O B-E I-E E-E O
+B-E E-E O O B-P E-P
+O O B-P I-P E-P B-E I-E E-E
+B-E E-E O B-P E-P B-P E-P O
+O O O O B-E I-E E-E
+B-E E-E B-P E-P B-P I-P E-P
+O B-E I-E E-E O
+B-E E-E
+B-E E-E O O B-P E-P O
+O O B-P E-P O B-E E-E B-P E-P O B-P E-P B-P E-P O
+O O O B-P I-P E-P O
+O B-E I-E E-E O B-E E-E O O O
+O B-E I-E E-E O O
+B-E E-E O O B-P E-P O
+O B-E I-E E-E O O O O O O
+B-E E-E O B-P E-P B-P E-P O
+O B-E I-E E-E O O O O
+O O O O O O O O B-E I-E E-E O O O
+B-E E-E O O B-P E-P O
+B-E E-E O O B-P E-P B-P E-P
+B-E E-E O O O B-E I-E E-E O
+B-E E-E O O B-P E-P O O
+O O B-P I-P E-P O O O B-E E-E
+B-E O O B-E I-E E-E O
+B-E E-E B-P E-P B-P E-P
+B-E O O B-P E-P B-P E-P
+B-E E-E O O O
+O O B-P I-P E-P B-E E-E
+O B-P E-P O B-E I-E E-E
+B-E E-E O
+B-E E-E O O B-P E-P O
+B-E E-E O B-P E-P O
+O B-P I-P E-P O
+B-E E-E O O B-P E-P O O
+B-E E-E O B-P E-P O
+O B-P I-P E-P
+O B-E E-E O
+B-E E-E O O B-P E-P O
+B-E E-E O O B-P E-P O
+B-P I-P E-P B-P E-P O
+B-E O B-P I-P I-P E-P B-P E-P O
+O O B-P E-P
+B-E E-E O O O O
+O O O
+B-E I-E E-E O O B-P E-P O
+O O O O O O B-E I-E E-E O O
+B-P I-P E-P O B-E E-E
+B-E I-E E-E O B-E E-E O O B-P E-P O O
+O O O O O B-P E-P O O O
+O O O O B-P E-P B-E I-E E-E O O O
+B-E O B-E I-E E-E O
+O O O O B-P E-P O O O O O O O O O
+B-E O O O B-E E-E O B-E E-E O O O
+O O O O B-E O O O
+B-E I-E I-E I-E E-E O O B-E I-E E-E O
+B-P E-P O O O O B-E O
+O B-P E-P O O O
+B-P E-P B-E O
+B-E I-E I-E I-E E-E O B-E I-E E-E O
+O O B-P E-P B-E E-E O B-E E-E O B-E E-E
+O O B-P E-P B-E E-E O
+B-E I-E E-E O B-E E-E O O B-P E-P O O O O B-E I-E E-E O B-E I-E E-E O O B-P E-P
+O O O B-P I-P E-P B-E O
+B-E I-E I-E I-E I-E E-E B-P E-P B-P E-P
+O O O O B-P E-P O O O O O B-E E-E O B-P E-P B-P E-P
+B-E I-E E-E O B-E E-E O B-P E-P O
+B-E E-E B-P E-P B-E O O O
+B-E I-E E-E O B-E I-E E-E B-P E-P B-P E-P
+B-E I-E I-E I-E E-E O B-P E-P B-P E-P
+B-E E-E O O B-P E-P O
+B-E I-E E-E B-P B-E E-E
+B-E I-E E-E O B-E E-E O O O
+B-E E-E B-P E-P B-E O
+B-E I-E E-E B-E E-E O B-E E-E O
+B-E I-E E-E B-E E-E B-P E-P O B-E E-E O
+B-P E-P O O B-E E-E
+B-E I-E E-E B-E I-E E-E O B-E I-E E-E O O
+B-E E-E B-P E-P B-E E-E B-P E-P
+B-E I-E I-E E-E O B-P E-P O
+B-E E-E B-P E-P B-E E-E O
+B-E I-E E-E B-E I-E E-E
+B-E E-E B-P E-P B-E E-E B-P E-P
+B-E E-E B-P E-P B-E E-E O O O O
+B-E E-E B-P E-P B-E O
+B-E E-E O O B-E E-E O
+B-E E-E O O O O B-E I-E E-E O
+B-E E-E B-P E-P B-P E-P
+B-E E-E O O B-P B-P E-P O O
+B-E E-E O O O B-P I-P E-P B-E E-E O O O
+B-E E-E B-E I-E E-E
+B-E I-E E-E B-P E-P B-P E-P O
+B-E E-E O O B-P I-P E-P B-E O O B-E O
+B-E E-E B-P E-P B-E E-E
+O O O B-E I-E E-E B-E E-E
+O O O B-E I-E E-E O B-E E-E
+O O O O B-E E-E O
+B-E B-P I-P E-P B-E I-E E-E O
+B-E B-P E-P B-P E-P
+O B-E I-E E-E O O B-P I-P E-P
+B-E I-E E-E B-P E-P B-P E-P
+B-E I-E I-E I-E I-E E-E O O B-E E-E O
+O O B-E O O
+O O B-E O
+O O B-E O
+B-E E-E B-P E-P B-P I-P E-P
+O O O B-P I-P E-P B-E E-E O O B-E I-E E-E
+O O O O B-P I-P E-P
+B-E E-E B-P O O B-E O B-P O
+O O O B-E O O B-P E-P B-P E-P
+B-E I-E E-E O B-E I-E E-E O B-P E-P O
+B-E I-E E-E O O O B-E I-E E-E
+B-E I-E E-E O O B-E I-E E-E O O
+B-E E-E O O O O B-E O B-P E-P
+O O O O O B-E O B-P E-P
+B-E I-E E-E O B-E I-E E-E O O O
+O O B-P E-P O B-E E-E O O
+B-E I-E E-E B-P E-P O O B-P E-P O
+B-E I-E E-E B-P E-P B-E I-E E-E O O O O O O O O O
+B-E E-E O B-E O B-P E-P
+B-E I-E E-E B-P E-P B-E I-E E-E
+O O O O B-E O
+B-E I-E E-E O O B-E I-E E-E
+B-E I-E E-E B-P E-P B-P E-P O O
+O O O B-E O
+B-E I-E E-E O B-E E-E O
