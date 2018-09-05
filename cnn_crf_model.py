@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from tensorflow.contrib.rnn import DropoutWrapper
 import tensorflow as tf
-import numpy as np
 
 
 class TCNNConfig(object):
     """CNN配置参数"""
 
-    embedding_dim = 300      # 词向量维度
+    embedding_dim = 64      # 词向量维度
     seq_length = 50        # 序列长度
     num_classes = 0        # 类别数
     num_filters = 128        # 卷积核数目
@@ -21,7 +19,7 @@ class TCNNConfig(object):
     batch_size = 64         # 每批训练大小
     num_epochs = 200         # 总迭代轮次
 
-    print_per_batch = 1    # 每多少轮输出一次结果
+    print_per_batch = 10    # 每多少轮输出一次结果
 
 
 class TextCNN(object):
@@ -75,13 +73,7 @@ class TextCNN(object):
             # 再reshape回去
             logits_in = tf.reshape(self.logits, [-1, self.config.seq_length, self.config.num_classes])
 
-
         with tf.name_scope("optimize"):
-            # 下面是更为大众所熟知的理解方式：
-            # 1. 先通过CNN(或RNN)学到每一个词(或者ngram)的表示w_rep
-            # 2. 将w_rep和转移矩阵组合得到特征函数，记作：f(w_rep, Tag_i-1, Tag_i)
-            # 3. 用CRF进行模型训练，得到特征函数权重
-            # 4. 预测时，综合考虑tag的分类结果score和转移矩阵score，通过维特比算法得出
             self.log_likelihood, self.transition_params = tf.contrib.crf.crf_log_likelihood(logits_in, self.input_y, self.seq_length)
             self.loss = tf.reduce_mean(-self.log_likelihood)
             # 优化器

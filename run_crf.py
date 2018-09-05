@@ -6,10 +6,10 @@ from sklearn_crfsuite import metrics
 from data.cnews_loader import *
 
 base_dir = 'data/cnews'
-crf_train_source_dir = os.path.join(base_dir, 'crf.train.source.txt')
-crf_train_target_dir = os.path.join(base_dir, 'crf.train.target.txt')
-crf_test_source_dir = os.path.join(base_dir, 'crf.test.source.txt')
-crf_test_target_dir = os.path.join(base_dir, 'crf.test.target.txt')
+crf_train_source_dir = os.path.join(base_dir, 'ner.train.source.txt')
+crf_train_target_dir = os.path.join(base_dir, 'ner.train.target.txt')
+crf_test_source_dir = os.path.join(base_dir, 'ner.test.source.txt')
+crf_test_target_dir = os.path.join(base_dir, 'ner.test.target.txt')
 
 
 def train():

@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
 
-from cnn_crf_model import *
+# from cnn_crf_model import *
+from rnn_crf_model import *
 from data.cnews_loader import *
-# from sklearn import metrics
-# import json
 
 import time
 from datetime import timedelta
 
 base_dir = 'data/cnews'
-source_total_dir = os.path.join(base_dir, 'ner.total.source.txt')
-target_total_dir = os.path.join(base_dir, 'ner.total.target.txt')
-label_total_dir = os.path.join(base_dir, 'ner.total.label.txt')
-predict_total_dir = os.path.join(base_dir, 'predict.txt')
+ner_train_source_dir = os.path.join(base_dir, 'ner.train.source.txt')
+ner_train_target_dir = os.path.join(base_dir, 'ner.train.target.txt')
+ner_test_source_dir = os.path.join(base_dir, 'ner.test.source.txt')
+ner_test_target_dir = os.path.join(base_dir, 'ner.test.target.txt')
 vocab_dir = os.path.join(base_dir, 'ner.vocab.txt')
 
 save_dir = 'checkpoints/textcnn'
@@ -54,7 +53,6 @@ def preds(x_batch, y_batch, len_batch, sess):
         loss, np_logits, np_transition_params = sess.run([model.loss, model.logits, model.transition_params], feed_dict=feed_dict)
         batch_loss += loss
         np_logits = np.squeeze(np_logits)
-        # print(np_transition_params)
         np_viterbi_sequence, _ = tf.contrib.crf.viterbi_decode(np_logits, np_transition_params)
         res.extend(musk(np_viterbi_sequence, len_batch[ii], config.seq_length))
     return batch_loss, res
@@ -64,70 +62,27 @@ def evaluate(sess, x_, y_, len_):
     """评估在某一数据上的准确率和损失"""
     data_len = len(x_)
     batch_eval = batch_iter(x_, y_, len_, 64)
-    # total_loss = 0.0
+    total_batch_loss = 0.0
     total_acc = 0.0
     for x_batch, y_batch, len_batch in batch_eval:
         batch_len = len(x_batch)
         y_batch_actual = []
         for ii in range(batch_len):
             y_batch_actual.extend(musk(y_batch[ii], len_batch[ii], config.seq_length))
-        # feed_dict = feed_data(x_batch, y_batch, len_batch, 1.0)
-        # loss, np_logits, np_transition_params = sess.run([model.loss, model.logits, model.transition_params], feed_dict=feed_dict)
-        # np_viterbi_sequence, _ = tf.contrib.crf.viterbi_decode(np_logits, np_transition_params)
-        # correct_pred = tf.equal(y_batch, np_viterbi_sequence)
         total_loss, np_viterbi_sequence = preds(x_batch, y_batch, len_batch, sess)
-        correct_pred = tf.equal(np.array(y_batch_actual), np_viterbi_sequence)
-        acc = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
-        acc = sess.run(acc)
-        # total_loss += loss * batch_len
+        correct_pred = np.equal(np.array(y_batch_actual), np_viterbi_sequence)
+        acc = np.count_nonzero(correct_pred) / len(np.array(np_viterbi_sequence).flatten())
         total_acc += acc * batch_len
-    return total_loss / data_len, total_acc / data_len
-
-
-def predict():
-    print("Loading predict data...")
-    x_pad, len_texts = process_predict_file(predict_total_dir, word_to_id)
-
-    session = tf.Session()
-    session.run(tf.global_variables_initializer())
-    saver = tf.train.Saver()
-    saver.restore(sess=session, save_path=save_path)  # 读取保存的模型
-
-    pred_res_dir = os.path.join(base_dir, 'pred_result.txt')
-    pred_res_w = open_file(pred_res_dir, mode='w')
-
-    for i in range(len(x_pad)):
-        feed_dict = {
-            model.input_x: [x_pad[i]],
-            # model.input_y: [y_batch[ii]],
-            # model.input_label: [label_batch[ii]],
-            # 虽然不会用到，但是需要声明，不然报错
-            model.input_y: np.ones((1, config.seq_length), dtype=np.int32),
-            model.keep_prob: 1.0,
-            model.seq_length: [len_texts[i]]
-        }
-        np_logits, np_transition_params = session.run([model.logits, model.transition_params], feed_dict=feed_dict)
-        # NER result
-        np_logits = np.squeeze(np_logits)
-        np_viterbi_sequence, _ = tf.contrib.crf.viterbi_decode(np_logits, np_transition_params)
-        res_ner_ids = musk(np_viterbi_sequence, len_texts[i], config.seq_length)
-
-        id_to_cate = {v: k for k, v in cat_to_id.items()}
-
-        res_ner = ''
-        for res_ner_id in res_ner_ids:
-            res_ner = res_ner + id_to_cate[res_ner_id] + ' '
-
-        pred_res_w.write(res_ner.strip() + "\n")
-    print('predict finished...')
+        total_batch_loss += total_loss
+    return total_batch_loss / data_len, total_acc / data_len
 
 
 if __name__ == '__main__':
     print('Configuring CNN model...')
     config = TCNNConfig()
-    if not os.path.exists(vocab_dir):  # 如果不存在词汇表，重建
-        build_vocab(source_total_dir, vocab_dir)
-    categories, cat_to_id = read_category()
+    if not os.path.exists(vocab_dir):
+        build_vocab(ner_train_source_dir, vocab_dir)
+    categories, cat_to_id = read_category(ner_train_target_dir)
     words, word_to_id = read_vocab(vocab_dir)
 
     config.vocab_size = len(words)
@@ -136,17 +91,17 @@ if __name__ == '__main__':
     model = TextCNN(config)
 
     """train model"""
-    print("Configuring Saver...")
     # 配置 Saver
     saver = tf.train.Saver()
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
     # 载入训练集与验证集
-    start_time = time.time()
     print("Loading training and val data...")
-    x_train, y_train, x_val, y_val, len_trains, len_vals = process_1dim_file(source_total_dir, target_total_dir, word_to_id, cat_to_id)
-    print("Load data time usage:", get_time_dif(start_time))
+    x_train, len_trains = process_nn_crf_source_file(ner_train_source_dir, word_to_id, config.seq_length)
+    x_val, len_vals = process_nn_crf_source_file(ner_test_source_dir, word_to_id, config.seq_length)
+    y_train = process_nn_crf_target_file(ner_train_target_dir, cat_to_id, config.seq_length)
+    y_val = process_nn_crf_target_file(ner_test_target_dir, cat_to_id, config.seq_length)
 
     # 创建session
     session = tf.Session()
@@ -164,22 +119,11 @@ if __name__ == '__main__':
         print('Epoch:', epoch + 1)
         batch_train = batch_iter(x_train, y_train, len_trains, 128)
         for x_batch, y_batch, len_batch in batch_train:
-            # print("train batch length (45):")
-            # print(len_batch[45])
             feed_dict = feed_data(x_batch, y_batch, len_batch, config.dropout_keep_prob)
 
             if total_batch % config.print_per_batch == 0:
                 # 每多少轮次输出在训练集和验证集上的性能
-                feed_dict[model.keep_prob] = 1.0
                 loss_train, np_logits, np_transition_params = session.run([model.loss, model.logits, model.transition_params], feed_dict=feed_dict)
-                # np_viterbi_sequence, _ = tf.contrib.crf.viterbi_decode(np_logits, np_transition_params)
-
-                # print(np.array(y_batch).shape)  # (128, 100)
-                # print(np.array(y_batch).reshape(-1).shape)
-                # print(np.array(np_viterbi_sequence).shape)  # (12800,)
-
-                # correct_pred = tf.equal(np.array(y_batch).reshape(-1), np_viterbi_sequence)
-                # acc_train = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
                 loss_val, acc_val = evaluate(session, x_val, y_val, len_vals)
 
                 if acc_val > best_acc_val:
@@ -206,5 +150,3 @@ if __name__ == '__main__':
                 break  # 跳出循环
         if flag:  # 同上
             break
-
-    predict()
