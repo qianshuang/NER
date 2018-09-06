@@ -53,6 +53,7 @@ def preds(x_batch, y_batch, len_batch, sess):
         loss, np_logits, np_transition_params = sess.run([model.loss, model.logits, model.transition_params], feed_dict=feed_dict)
         batch_loss += loss
         np_logits = np.squeeze(np_logits)
+        # viterbi_decode只能用来测试跟预测，不能出现在graph构建代码中，否则报错
         np_viterbi_sequence, _ = tf.contrib.crf.viterbi_decode(np_logits, np_transition_params)
         res.extend(musk(np_viterbi_sequence, len_batch[ii], config.seq_length))
     return batch_loss, res
