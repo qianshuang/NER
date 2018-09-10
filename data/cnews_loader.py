@@ -230,31 +230,6 @@ def process_nn_crf_target_file(target_total_dir, cat_to_id, seq_length):
     return y_pad
 
 
-def process_predict_file(predict_total_dir, word_to_id):
-    contents = read_predict_file(predict_total_dir)
-    len_ = len(contents)
-    len_texts = []
-
-    data_id = []
-    for i in range(len_):
-        data_id_in_text = []
-        for x in contents[i]:
-            for xx in number_norm(x):
-                if xx in word_to_id:
-                    data_id_in_text.append(word_to_id[xx])
-                else:
-                    data_id_in_text.append(word_to_id['Unknown'])
-        data_id.append(data_id_in_text)
-
-        if len(data_id_in_text) >= 50:
-            len_texts.append(50)
-        else:
-            len_texts.append(len(data_id_in_text))
-
-    x_pad = pad_sequences(data_id, 50, value=word_to_id['Padding'])
-    return x_pad, len_texts
-
-
 def batch_iter(x, y, len_, batch_size=64):
     """生成批次数据"""
     data_len = len(x)
